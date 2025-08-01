@@ -2,7 +2,7 @@
 docker compose down -v
 
 # building and running docker-compose file
-docker compose build && docker-compose up -d
+docker compose build && docker compose up -d
 
 # container id by image name
 apache_container_id=$(docker ps -aqf "name=bagisto-php-apache")
